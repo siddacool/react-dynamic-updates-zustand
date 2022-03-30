@@ -1,0 +1,14 @@
+.Dud {
+  grid-area: Dud;
+  overflow: auto;
+}
+
+.Dud article {
+  height: initial;
+}
+
+@media (min-width: 900px) {
+  .Dud {
+    max-height: 400px;
+  }
+}
